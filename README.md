@@ -11,6 +11,7 @@ The equals method will take a Student reference as a parameter and check to see 
 For example …
 
 Student student1 = new Student("Sylvia", "Tseng", 16, 11);
+
 Student student2 = new Student("Sylvia", "Tseng", 16, 11);
 
 student1.equals(student2); // returns true
