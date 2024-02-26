@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Test;
-//import org.testng.annotations.Test;
+//import org.junit.jupiter.api.Test;
 
+import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ClassSectionTester {
@@ -19,7 +19,6 @@ public class ClassSectionTester {
         student4 = new Student("Antigone", "Wong", 17, 12);
         cs = new ClassSection("Art", 10, 12);
     }
-
 
     public void tearDown() {
         student1 = null;
